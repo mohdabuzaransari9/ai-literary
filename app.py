@@ -45,7 +45,7 @@ def load_document(file_path: str) -> Optional[List[Document]]:
     elif ext == '.docx':
         loader = Docx2txtLoader(file_path)
     elif ext == '.txt':
-        loader = TextLoader(file_path)
+        loader = TextLoader(file_path,encoding="utf-8")
     else:
         st.error(f"Unsupported file format: {ext}")
         return None
