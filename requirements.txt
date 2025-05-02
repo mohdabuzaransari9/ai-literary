@@ -1,5 +1,5 @@
 langchain
-langchain_community
+langchain-community
 langchain-openai
 langchain-pinecone
 ipykernel
