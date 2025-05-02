@@ -1,2 +1,0 @@
-# ai-literary
-project
